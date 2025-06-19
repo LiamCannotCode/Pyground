@@ -1,8 +1,6 @@
 def hours_to_seconds(hours):
-    minute = hours * 60
-    seconds = minute * 60
+    seconds = (hours * 60) * 60
     return seconds
-
 # Don't touch below this line
 
 def test(hours):
