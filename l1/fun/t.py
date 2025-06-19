@@ -1,14 +1,5 @@
-def main():
-    health = 10
-    armor = 5
-    add_armor(health, armor)
+def my_func():
+    print("I do nothing")
+    return
 
-def add_armor(h, a):
-    new_health = h + a
-    print_health(new_health)
-
-def print_health(new_health):
-    print(f"The player now has {new_health} health")
-
-# call entrypoint last
-main()
+my_func()
